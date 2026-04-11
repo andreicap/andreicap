@@ -1,0 +1,61 @@
+baseURL = 'https://andreicap.github.io/'
+languageCode = 'en'
+title = 'Andrei'
+theme = 'PaperMod'
+
+[params]
+description = 'Personal homepage of Andrei: AI enablement, data science, machine learning, and product-minded software engineering.'
+defaultTheme = 'light'
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowToc = false
+TocOpen = false
+
+[params.profileMode]
+enabled = true
+title = 'Andrei'
+subtitle = 'Lead Data Scientist working on AI enablement, machine learning, experimentation, and product-minded software engineering.'
+imageUrl = 'profile_sm.png'
+imageTitle = 'Andrei'
+imageWidth = 220
+imageHeight = 220
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://linkedin.com/in/andreicapastru/'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/andreicap'
+
+[menu]
+
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+identifier = 'resume'
+name = 'Resume'
+url = '/resume/'
+weight = 2
+
+[[menu.main]]
+identifier = 'sds-exam-prep'
+name = 'SDS Exam Prep'
+url = 'https://andreicap.github.io/deutsch_prep/'
+weight = 3
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 2
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
