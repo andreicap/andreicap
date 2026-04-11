@@ -70,10 +70,12 @@
 
 @media screen and (max-width: 1099px) {
     .post-layout.has-toc {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .post-toc {
+        order: -1;
         position: static;
         max-height: none;
         overflow: visible;
